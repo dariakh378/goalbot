@@ -7,7 +7,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from datetime import datetime
 
 API_TOKEN = '8195418513:AAGL24nsoxSg9Lmgi7m0GLnos4m6qh_oavY'
-WEBHOOK_HOST = 'https://your-render-url.onrender.com'  # ЗАМЕНИ ПОТОМ
+WEBHOOK_HOST = 'https://goalbot-1.onrender.com'  # ЗАМЕНИ ПОТОМ
 WEBHOOK_PATH = f'/webhook/{API_TOKEN}'
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
