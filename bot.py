@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
-API_TOKEN = '7595275690:AAFmpGGUnWIGgun78lwI0DlPCMKbWAj-D8g'
+API_TOKEN = '7595275690:AAE1oL5nIOIaVWngbeP4FvSBTUSKrrnB8eE'
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 scheduler = AsyncIOScheduler()
